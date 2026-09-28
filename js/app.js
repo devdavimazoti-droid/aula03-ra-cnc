@@ -52,7 +52,6 @@ document.addEventListener(
         const information = {
 
 
-
             placa: {
                 title:
                     "Cabeçote e placa",
@@ -157,7 +156,7 @@ document.addEventListener(
 
         /* =========================================================
         
-          
+          |  
         
         7. BOTÃO DE FECHAR
         ========================================================= */
@@ -208,7 +207,6 @@ document.addEventListener(
                     "Torno reconhecido. Toque em um ponto numerado.";
                 badge.textContent =
                     "● RA ATIVA";
-
 
 
                 /*
@@ -262,7 +260,7 @@ document.addEventListener(
         ↓
         posição no mundo 3D
         
-          
+          |  
         
         ↓
         projeção pela câmera

@@ -59,7 +59,7 @@ a-scene {
 .hotspot {
     position: absolute;
     /*
-* Antes de targetFound:
+* Antes de   Found:
 * o hotspot não deve aparecer.
 */
     display: none;

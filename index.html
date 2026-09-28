@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- A-Frame: cena e objetos 3D. -->
     <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
-    <!-- MindAR: reconhecimento e tracking do target. -->
+    <!-- MindAR: reconhecimento e tracking do   . -->
     <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js">
     </script>
 
@@ -50,8 +50,7 @@
     </div>
 
     <section id="info-panel" class="info-panel hidden" aria-live="polite">
-        <button id="close-panel" class="close-button" Realidade Aumentada — Manual Interativo do Torno CNC | Roteiro do
-            Aluno type="button" aria-label="Fechar painel">
+        <button id="close-panel" class="close-button" | Roteiro do Aluno type="button" aria-label="Fechar painel">
             ×
         </button>
         <small>PONTO DO TORNO</small>
@@ -63,42 +62,27 @@
     </section>
 
 
-    <a-scene id="ar-scene" 
-
-            mindar-image="
-            imageTargetSrc: assets/targets/torno-cnc.mind;
+    <a-scene id="ar-scene" mindar-image="
+            image  Src: assets/targets/targets.mind;
             autoStart: true;
             uiLoading: yes;
             uiScanning: yes;
             uiError: yes;
-            " 
-            
-            color-space="sRGB" 
-        
-            renderer="
+            " color-space="sRGB" renderer="
             colorManagement: true;
             physicallyCorrectLights: true;
             alpha: true;
-            " 
-            
-            vr-mode-ui="enabled: false" 
-            device-orientation-permission-ui="enabled: false" 
-            embedded>
+            " vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false" embedded>
 
         <!-- Câmera da experiência. -->
-        <a-camera 
-            id="ar-camera" 
-            position="0 0 0" 
-            look-controls="enabled: false">
+        <a-camera id="ar-camera" position="0 0 0" look-controls="enabled: false">
         </a-camera>
-        <!-- Primeiro target do arquivo .mind. -->
-        <a-entity 
-            id="target" 
-            mindar-image-target="targetIndex: 0">
+        <!-- Primeiro    do arquivo .mind. -->
+        <a-entity id="  " mindar-image-="  Index: 0">
         </a-entity>
-        
+
         <!-- JavaScript carregado ao final do body. -->
         <script src="js/app.js"></script>
-    </body>
+</body>
 
 </html>
